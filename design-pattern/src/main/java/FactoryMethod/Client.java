@@ -1,9 +1,9 @@
 package FactoryMethod;
 
 import FactoryMethod.picture.Picture;
-import FactoryMethod.reader.GifPictureFactory;
-import FactoryMethod.reader.JpgPictureFeactory;
-import FactoryMethod.reader.PictureFactory;
+import FactoryMethod.factory.GifPictureFactory;
+import FactoryMethod.factory.JpgPictureFeactory;
+import FactoryMethod.factory.PictureFactory;
 
 public class Client {
     public static void main(String[] args) {

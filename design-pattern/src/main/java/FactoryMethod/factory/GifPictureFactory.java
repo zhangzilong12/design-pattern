@@ -1,7 +1,6 @@
-package FactoryMethod.reader;
+package FactoryMethod.factory;
 
 import FactoryMethod.picture.GifPicture;
-import FactoryMethod.picture.JpgPicture;
 import FactoryMethod.picture.Picture;
 
 public class GifPictureFactory implements PictureFactory {

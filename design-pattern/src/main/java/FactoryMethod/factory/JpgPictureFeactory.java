@@ -1,4 +1,4 @@
-package FactoryMethod.reader;
+package FactoryMethod.factory;
 
 import FactoryMethod.picture.JpgPicture;
 import FactoryMethod.picture.Picture;
