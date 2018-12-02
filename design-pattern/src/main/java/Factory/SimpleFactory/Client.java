@@ -1,10 +1,10 @@
 package Factory.SimpleFactory;
 
-import Factory.SimpleFactory.picture.Picture;
+import Factory.SimpleFactory.picture.BasePicture;
 
 public class Client {
     public static void main(String[] args) {
-        Picture picture = PictureFactory.create("gif");
+        BasePicture picture = PictureFactory.create("gif");
         picture.print();
     }
 }
